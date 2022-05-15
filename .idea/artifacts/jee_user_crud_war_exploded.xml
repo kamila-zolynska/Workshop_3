@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="jee-user-crud:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/jee_user_crud_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="jee-user-crud" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.mindrot:jbcrypt:0.4" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.20" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.6.1" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="jee-user-crud/web/Web" />
+      <element id="javaee-facet-resources" facet="jee-user-crud/javaeeApplication/javaEEApplication" />
+    </root>
+  </artifact>
+</component>
